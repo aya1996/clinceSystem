@@ -7,6 +7,7 @@ use App\Models\Prescription;
 
 class prescriptionService
 {
+    //Single-Responsibility Principle -1-solid principle
     public function StorePrescription(
         object $prescriptionable,
         string  $name,
